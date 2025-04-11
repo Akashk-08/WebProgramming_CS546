@@ -1,0 +1,140 @@
+/*This file should have 10 CSS rulesets */
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+  
+.home-container {
+    width: 90%;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+  
+.page-title {
+    color: #e67824; 
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+  
+
+.description {
+    color: #495057;
+    font-size: 1.15rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.form-label {
+    font-size: 1.1rem;
+    color: #343a40;
+    font-weight: 500;
+    margin-bottom: -0.5rem;
+}
+
+.search-input {
+    padding: 0.75rem 1rem;
+    border: 2px solid #dee2e6;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+  
+.search-input:focus {
+    border-color: #e65e24;
+    outline: none;
+}
+  
+.submit-btn {
+    padding: 0.75rem;
+    background-color: #e6b624;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 0.5rem;
+}
+  
+.submit-btn:hover {
+    background-color: #52c11a;
+    transform: translateY(-1px);
+}
+  
+@media (max-width: 600px) {
+    .home-container {
+      padding: 1.5rem;
+      width: 95%;
+}
+    
+.page-title {
+      font-size: 2rem;
+    }
+}
+  
+.footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 1.5rem;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+.character-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: white;
+}
+
+.character-name {
+    color: #e67824;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.character-details {
+    color: #495057;
+    line-height: 1.5;
+}
+
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0;
+}
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.hidden {
+    display: none;
+}

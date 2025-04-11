@@ -1,0 +1,21 @@
+{
+  "name": "lab8_stub",
+  "version": "1.0.0",
+  "description": "My lab 8 Module",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Akash Kulkarni 20034382",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "handlebars": "^4.7.8",
+    "md5": "^2.3.0"
+  }
+}
