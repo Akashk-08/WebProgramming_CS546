@@ -1,0 +1,16 @@
+{
+  "name": "lab3_stub",
+  "version": "1.0.0",
+  "description": "My lab 3 module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "type" : "module"
+  },
+  "author": "Akash Kulkarni 20034382",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
