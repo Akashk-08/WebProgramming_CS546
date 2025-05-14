@@ -1,0 +1,99 @@
+/*
+You will style your page using at least 10 CSS rule-sets for general CSS styling. You will place the CSS in this file.
+
+You must style the is-odd class to make text have a color of #0000FF and is-even class to make text have a color of #FF0000. Both is-odd and is-even should also be bold (these can count as 2 of your 10 rule-sets) 
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #error {
+    color: red;
+    font-weight: bold;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border: 1px solid #ff4d4d;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  #input_sorted {
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .is-odd {
+    color: #0000FF;
+    font-weight: bold;
+  }
+  
+  .is-even {
+    color: #FF0000;
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #eaeaea;
+    font-size: 0.9em;
+  }
+  

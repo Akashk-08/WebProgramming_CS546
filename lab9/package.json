@@ -1,0 +1,19 @@
+{
+  "name": "lab9_stub",
+  "version": "1.0.0",
+  "description": "My lab 9 module",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Akash Kulkarni 20034382",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "handlebars": "^4.7.8"
+  },
+  "keywords": []
+}
