@@ -1,0 +1,48 @@
+{{!--
+
+registration handelbars
+
+--}}
+
+<h2>Register</h2>
+
+<form id="signup-form" method="POST" action="/register">
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" name="firstName" >
+
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName" name="lastName" >
+
+  <label for="userId">User ID:</label>
+  <input type="text" id="userId" name="userId" >
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" >
+
+  <label for="confirmPassword">Confirm Password:</label>
+  <input type="password" id="confirmPassword" name="confirmPassword" >
+
+  <label for="favoriteQuote">Favorite Quote:</label>
+  <input type="text" id="favoriteQuote" name="favoriteQuote" >
+
+  <label for="backgroundColor">Background Color:</label>
+  <input type="color" id="backgroundColor" name="backgroundColor" >
+
+  <label for="fontColor">Font Color:</label>
+  <input type="color" id="fontColor" name="fontColor" >
+
+  <label for="role">Role:</label>
+  <select id="role" name="role" >
+    <option value="superuser">Super User</option>
+    <option value="user">User</option>
+  </select>
+
+  <button type="submit" id="submitButton" name="submitButton">Register</button>
+</form>
+
+<p><a href="/login" id="loginlink">Already have an account? Click here to sign-in</a></p>
+<p><a href="/" id="homelink">Go to Home</a></p>
+
+{{#if error}}
+  <p id="errorMessage">{{error}}</p>
+{{/if}}

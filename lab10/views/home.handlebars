@@ -1,0 +1,19 @@
+<h1 id="appTitle">Lab 10 - Login System</h1>
+
+<p id="siteDescription">
+  This is a login system for lab 10. It allows users to register, log in, and view protected pages based on their role.
+</p>
+
+{{#if notLoggedIn}}
+  <a id="signuplink" href="/register">Register Here</a>
+  <a id="loginlink" href="/login">Login Here</a>
+{{/if}}
+
+{{#if user}}
+  <a id="userlink" href="/user">User Page</a>
+{{/if}}
+
+{{#if superUser}}
+  <a id="userlink" href="/user">User Page</a>
+  <a id="superuserlink" href="/superuser">Super User Page</a>
+{{/if}}
